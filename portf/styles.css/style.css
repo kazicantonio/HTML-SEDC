@@ -1,0 +1,116 @@
+.top {
+    height: 400px;
+    width: 100%;
+    background-color: #ADD8E6;
+    border-radius: 30px;
+    border: 5px darkblue solid;
+}
+
+.img {
+    width: 200px;
+    margin-top: 15px;
+    border-radius: 50%;
+    border: 2px dotted darkblue;
+}
+
+.photo {
+    display: grid;
+    place-items: center;
+}
+
+.information {
+    height: 70px;
+
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    color: darkblue;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info2 {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+
+    height: 35px;
+
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1F305E;
+}
+
+.info3 {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+
+    height: 35px;
+    
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1F305E;
+}
+
+.tel {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+
+    height: 35px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1F305E;
+}
+
+.mailphoto {
+    width: 30px;
+}
+
+.telimg {
+    width: 30px;
+}
+
+.bottom {
+    display: flex;
+}
+
+.leftside {
+    height: 1000px;
+    width: 50%;
+    margin-top: 20px;
+
+    border-radius: 30px;
+    border: 3px darkblue solid;
+    margin: 15px;
+    
+}
+
+.rightside {
+    height: 1000px;
+    width: 50%;
+    margin-top: 20px;
+
+    border-radius: 30px;
+    border: 3px darkblue solid;
+    margin: 15px;
+}
+
+.exp {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 70px;
+}
+
+.explist {
+    display: flex;
+    justify-content: center;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
